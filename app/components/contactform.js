@@ -79,13 +79,13 @@ const ContactForm = () => {
       <div className="w-full md:w-1/2 max-w-md bg-white border border-[#c8c0b2] rounded-lg p-6 shadow-md">
         <h2 className="text-2xl text-center text-[#72614D] mb-2">Get In Touch</h2>
         <p className="text-center text-sm text-[#72614D] mb-6">
-          Simply fill out the fields below. We'll be in touch soon—usually within one business day.
+          Simply fill out the fields below. We&#39;ll be in touch soon—usually within one business day.
           This form is secure, private, and completely free.
         </p>
 
         {submitted && (
           <p className="text-green-700 text-sm text-center mb-4">
-            Thank you! We'll get back to you shortly.
+            Thank you! We&#39;ll get back to you shortly.
           </p>
         )}
 
@@ -148,7 +148,7 @@ const ContactForm = () => {
               onChange={(e) => setFormData({ ...formData, preferredTime: e.target.value })}
             />
             <p className="text-xs text-[#888] mt-1">
-              Let us know when you're typically available for a call or consultation
+              Let us know when you&#39;re typically available for a call or consultation
             </p>
             {errors.preferredTime && (
               <p className="text-red-600 text-xs mt-1">{errors.preferredTime}</p>

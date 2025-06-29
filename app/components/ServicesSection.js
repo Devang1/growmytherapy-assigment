@@ -50,12 +50,12 @@ export default function ServicesSection() {
         >
           <h2 className="text-3xl sm:text-4xl md:text-4xl leading-snug font-thin mb-8 max-w-4xl mx-auto">
             Therapy is more than treatment—
-            <br /> it’s an investment in your healing, clarity, and growth.
+            <br /> it&#39;s an investment in your healing, clarity, and growth.
           </h2>
           <p className="text-base sm:text-lg md:text-xl max-w-4xl mx-auto text-[#4a4a4af3] leading-relaxed mb-20">
-            Whether you're experiencing anxiety, burnout, trauma, or
+            Whether you&#39;re experiencing anxiety, burnout, trauma, or
             relationship challenges, therapy provides a supportive space to
-            understand, reflect, and reconnect with yourself. You don’t have to
+            understand, reflect, and reconnect with yourself. You don&#39;t have to
             face these challenges alone — this space is here for you.
           </p>
         </motion.div>
